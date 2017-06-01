@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Blog!</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1>Przykladowe wpisy w Bootstrapie</h1>
+			</div>
+		</div>
+
+		<hr>
+
+		<div class ="row">
+			<div class="col-md-4">
+				<h3>Tytuł pierwszego wpisu.</h3>
+				<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. </p>
+			</div>
+			<div class="col-md-4">
+				<h3>Tytuł drugiego wpisu.</h3>
+				<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. </p>
+			</div>
+			<div class="col-md-4">
+				<h3>Tytuł trzeciegooooo wpisu.</h3>
+				<p>Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. </p>
+			</div>
+
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>

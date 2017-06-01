@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Zarejestruj sie</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header navbar-right">
+					<a class="navbar-brand" href="#">Na ratunek backendowcowi ! </a>
+				</div>
+				<ul class="nav navbar-nav navbar-left">
+					<li class="active"><a href="apps.html">Strona główna</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">O nas
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">Nasza działalność</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>
+			<div class="well">Formularz rejestracyjny.</div>
+			<div class="form-group">
+				<label for="usr">Imie:</label>
+				<input type="text" class="form-control" id="usr">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Nazwisko:</label>
+				<input type="text" class="form-control" id="pwd">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Haslo:</label>
+				<input type="password" class="form-control" id="pwd">
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+				<input id="email" type="text" class="form-control" name="email" placeholder="Adres e-mail">
+			</div>
+			<div class="form-group">
+				<label for="sel1">Wiek:</label>
+				<select class="form-control" id="sel1">
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+				</select>
+			</div>
+			<div class="btn-group" role="group" >
+			<button type="button" class="btn btn-primary">Zatwierdz</button>
+			<button type="button" class="btn btn-default">Wyczysc</button>
+		</div>
+		</div>
+	</body>
+	</html>
